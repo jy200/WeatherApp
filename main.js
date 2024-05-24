@@ -1,4 +1,4 @@
-const apiKey = 'INSERT API';
+const apiKey = 'insert api';
 const sideBar = document.getElementById('mySidenav');
 const closebtn = document.getElementById('closeSideBar');
 const locationInput = document.getElementById('locationInput');
@@ -11,10 +11,7 @@ const weatherType = document.getElementById('description');
 
 
 searchButton.addEventListener('click', () => {
-    const location = locationInput.value;
-    if (location) {
-        fetchLocation(location);
-    }
+    fetchLocation(location);
 });
 
 function fetchLocation(location) {
@@ -28,7 +25,7 @@ function fetchLocation(location) {
             }
         })
         .catch(error => {
-            console.error('Error fetching weather data:', error);
+            console.error('geo location error:', error);
         });
 }
 function createSelectWeather(data){
@@ -71,7 +68,7 @@ function fetchWeather(name, lat, lon){
             openWeather();
         })
         .catch(error => {
-            console.error('Error fetching weather data:', error);
+            console.error('weather current time error:', error);
         });
 }
 
