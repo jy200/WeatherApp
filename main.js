@@ -1,4 +1,4 @@
-const apiKey = 'insert api';
+const apiKey = 'Insert API Key from Open Weather';
 const sideBar = document.getElementById('mySidenav');
 const closebtn = document.getElementById('closeSideBar');
 const locationInput = document.getElementById('locationInput');
