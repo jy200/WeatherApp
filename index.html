@@ -2,17 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Weather</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="data:;base64,iVBORwOKGO=" />
     </head>
     <body>
         <div id="searchBox" class="container">
             <h1 class="searchHeading">Weather</h1>
             <input type="text" id="locationInput" autocomplete="off" placeholder="City, State(Optional), Country(Optional)">
-            <button onclick="openNav()" id="searchButton">Search</button>
+            <button id="searchButton">Search</button>
         </div>
+        <div id="searchError">INPUT VALID STRING</div>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" id="closeSideBar" onclick="closeNav()">&times;</a>
             <h1 class="sideBarHeading"> Click a Location </h1>
