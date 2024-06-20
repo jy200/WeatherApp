@@ -1,4 +1,7 @@
-const apiKey = "37c90e976b872a70b6bda8468ece6d2f";
+// insert here
+const apiKey = "Blank";
+
+
 const sideBar = document.getElementById("mySidenav");
 const searchButton = document.getElementById("searchButton");
 const locationText = document.getElementById("location");
